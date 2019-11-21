@@ -1689,7 +1689,7 @@ textarea.w-select {
   user-select: none;
 }
 .w-nav-button.w--open {
-  background-color: #C8C8C8;
+  background-color: #ffffff;
   color: white;
 }
 .w-nav[data-collapse="all"] .w-nav-menu {
@@ -1755,7 +1755,7 @@ textarea.w-select {
   background-color: #dddddd;
 }
 .w-tab-link.w--current {
-  background-color: #C8C8C8;
+  background-color:#1a2b5d;
 }
 .w-tab-content {
   position: relative;

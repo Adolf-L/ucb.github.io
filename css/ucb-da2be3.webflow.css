@@ -58,7 +58,7 @@
 
 .aticle-2 {
   margin-bottom: 25px;
-  background-color: #036;
+  background-color: #1a2b5d;
 }
 
 .tabs-menu {
@@ -157,8 +157,8 @@
 }
 
 .tab-link-tab-1 {
-  background-color: transparent;
-  color: #ac3a3a;
+  /* background-color: transparent; */
+  /* color: #ac3a3a; */
 }
 
 @media (max-width: 479px) {
