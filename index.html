@@ -113,18 +113,42 @@
     <div class="text-block">关于我们|最新资讯|中国学生信息|联系我们<br>©伯明翰大学学院</div>
   </div>
 <!-- 占位符 -->
-  <div class="footer-section" class="cus-placeholder"></div>
+  <div class="footer-section" id="cus-placeholder"></div>
 
   <!-- 微博微信浮动条 -->
   <div class="widgets-div">
     <a href="#back-top" class="cus-widgets">回到顶部</a>
-    <a href="" class="cus-widgets">微信扫码</a>
+    <a id="show-qrcode" href="javascript:void(0)" class="cus-widgets" onclick="openOrcloseQrcode()">微信扫码</a>
     <a href="" class="cus-widgets">微博跳转</a>
+    <!-- <div><img src="./images/qrcode.png" alt="" style="height:125px;"></div> -->
   </div>
   <div class="widgets-qrcode"><img src="./images/qrcode.png" alt="" style="height:125px;"></div>
   
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+  // 通过 JQ 来实现点击展示 只有桌面有效 hover 效果
+    $(document).ready(function(){
+      $("#show-qrcode").on('mouseover', function(){
+        $("div.widgets-qrcode").show();
+      });
+      $("#show-qrcode").on('mouseout', function() {
+        $("div.widgets-qrcode").hide();
+      })
+    })
+// 通过 JQ 实现点击展示显示二维码 点击修改 CSS 元素
+    function openOrcloseQrcode() {
+      var isHidden = $("div.widgets-qrcode").css('visibility');
+
+      if(isHidden == 'hidden') {
+        // 显示这个元素
+        $("div.widgets-qrcode").css('visibility', 'visible');
+      } else {
+        $(".widgets-qrcode").css("visibility","hidden");
+      }
+    }
+  
+  </script>
 </body>
 </html>

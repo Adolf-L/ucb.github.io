@@ -1,11 +1,14 @@
+#cus-placeholder {
+  display: none;
+}
+
 .widgets-qrcode {
   position: fixed;
   bottom: 35%;
-  right: 4%;
+  right: 3.5%;
 
   /* 默认隐藏二维码 */
-  visibility: hidden;
-
+  /* visibility: hidden; */
 }
 
 .widgets-div {
@@ -196,7 +199,17 @@
 }
 
 @media (max-width: 479px) {
-  .cus-placeholder {
+  .widgets-qrcode {
+    position: fixed;
+    bottom: 35%;
+    right: 12%;
+  
+    /* 默认隐藏二维码 */
+    visibility: hidden;
+  
+  }
+
+  #cus-placeholder {
     display: block;
   }
   .cus-btn {
