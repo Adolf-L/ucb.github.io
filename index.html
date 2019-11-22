@@ -17,7 +17,7 @@
 </head>
 <body>
   <div data-collapse="medium" data-animation="default" data-duration="400" class="header w-nav">
-    <div class="w-container"><a href="#" target="_blank" class="brand w-nav-brand"><img src="images/UoB-UCB-Partnership-Lock-up-300x91.png" width="150" alt="" class="big-logo"></a>
+    <div id="back-top" class="w-container"><a href="#" target="_blank" class="brand w-nav-brand"><img src="images/UoB-UCB-Partnership-Lock-up-300x91.png" width="150" alt="" class="big-logo"></a>
       <nav role="navigation" class="w-nav-menu">
         <div data-hover="1" data-delay="0" class="w-dropdown">
           <div class="dropdown-link w-dropdown-toggle">
@@ -102,13 +102,27 @@
       </div>
       <div class="form w-col w-col-6" style="padding-top: 10px;">
         <!-- <h3>请填写表单！</h3> -->
-        <iframe src="./form.html" frameborder="0" style="width: 100%;" onload="this.height=this.contentWindow.document.body.scrollHeight + 50"></iframe>
+        <iframe id="from-title" src="./form.html" frameborder="0" style="width: 100%;" onload="this.height=this.contentWindow.document.body.scrollHeight + 50"></iframe>
       </div>
     </div>
   </div>
+  <!-- 添加表单吸低按钮 -->
+  <div><a href="#from-title" class="cus-btn">填写表单</a></div>
+
   <div class="footer-section">
     <div class="text-block">关于我们|最新资讯|中国学生信息|联系我们<br>©伯明翰大学学院</div>
   </div>
+<!-- 占位符 -->
+  <div class="footer-section" class="cus-placeholder"></div>
+
+  <!-- 微博微信浮动条 -->
+  <div class="widgets-div">
+    <a href="#back-top" class="cus-widgets">回到顶部</a>
+    <a href="" class="cus-widgets">微信扫码</a>
+    <a href="" class="cus-widgets">微博跳转</a>
+  </div>
+  <div class="widgets-qrcode"><img src="./images/qrcode.png" alt="" style="height:125px;"></div>
+  
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->

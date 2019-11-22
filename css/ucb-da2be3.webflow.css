@@ -1,3 +1,37 @@
+.widgets-qrcode {
+  position: fixed;
+  bottom: 35%;
+  right: 4%;
+
+  /* 默认隐藏二维码 */
+  visibility: hidden;
+
+}
+
+.widgets-div {
+  /* display: inline-block; */
+  position: fixed;
+  bottom: 35%;
+  right:1%;
+  /* 通过设定的盒子的宽来设定布局 */
+  width: 40px;
+  
+}
+/* custom widgets */
+.cus-widgets {
+  text-decoration: none;
+  /* float: right; */
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  background-color: #1a2b5d;
+  color: #fff;
+  /* padding-top: 1px; */
+  margin: 1px;
+}
+
+
 .header {
   background-color: #fff;
 }
@@ -162,6 +196,13 @@
 }
 
 @media (max-width: 479px) {
+  .cus-placeholder {
+    display: block;
+  }
+  .cus-btn {
+    visibility: visible;
+  }
+
   .content-col {
     display: block;
   }
