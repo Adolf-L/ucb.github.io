@@ -1,38 +1,6 @@
-.widgets-qrcode {
-  position: fixed;
-  bottom: 35%;
-  right: 3.5%;
-
-  /* 默认隐藏二维码 */
-  /* visibility: hidden; */
+#s-h3 {
+  color: #003266;
 }
-
-/* 自己添加 */
-.widgets-div {
-  /* display: inline-block; */
-  position: fixed;
-  bottom: 35%;
-  right:1%;
-  /* 通过设定的盒子的宽来设定布局 */
-  width: 40px;
-
-}
-
-/* custom widgets */
-.cus-widgets {
-  text-decoration: none;
-  /* float: right; */
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  text-align: center;
-  background-color: #1a2b5d;
-  color: #fff;
-  /* padding-top: 1px; */
-  margin: 1px;
-}
-
-
 /* 自定义吸低按钮 */
 .cus-btn {
   /*  */
@@ -154,7 +122,6 @@
   margin-bottom: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: rgba(51, 51, 51, 0.55);
   text-align: center;
 }
 
@@ -164,11 +131,9 @@
 
 .p-black {
   margin-bottom: 0px;
-  color: #918989;
   font-size: 16px;
   text-align: justify;
   letter-spacing: 2px;
-  text-indent: 2em;
 }
 
 .grid-2 {
@@ -187,7 +152,7 @@
 .h2-white {
   padding-top: 20px;
   padding-bottom: 20px;
-  color: hsla(0, 0%, 100%, 0.77);
+  color: #fff;
   text-align: center;
 }
 
@@ -196,11 +161,10 @@
   margin-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
-  color: hsla(0, 0%, 100%, 0.72);
+  color: #fff;
   font-size: 16px;
   text-align: justify;
   letter-spacing: 2px;
-  text-indent: 2em;
 }
 
 .img-article2 {
@@ -228,12 +192,18 @@
 }
 
 .text-block {
-  color: hsla(0, 0%, 100%, 0.73);
+  width: 300px;
   text-align: center;
 }
 
 .dropdown-link {
-  background-color: #fff;
+  background-color: #036;
+  color: #fff;
+  font-size: 16px;
+}
+
+.top-link {
+  color: #337ab7;
 }
 
 .tab-selected1.w--current {
@@ -271,17 +241,17 @@
   margin-top: 10px;
 }
 
+.bar-dropdown-link {
+  color: #337ab7;
+}
+
+.footerlink {
+  color: hsla(0, 0%, 100%, 0.74);
+  text-decoration: none;
+}
+
 @media (max-width: 479px) {
 
-  .widgets-qrcode {
-    position: fixed;
-    bottom: 35%;
-    right: 12%;
-  
-    /* 默认隐藏二维码 */
-    visibility: hidden;
-  
-  }
 
   /* 显示占位符 */
   #cus-placeholder {
@@ -293,6 +263,7 @@
     visibility: visible;
   }
 
+  
   .content-col {
     display: block;
   }
@@ -410,6 +381,9 @@
   .nav-menu {
     margin-top: 0px;
     box-shadow: 0 0 11px -2px #000;
+  }
+  .bar-dropdown-link {
+    background-color: #fff;
   }
 }
 
