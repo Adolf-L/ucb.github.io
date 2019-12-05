@@ -39,7 +39,7 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: #fff;
-  line-height: 44px;
+  /* line-height: 44px; */
   font-style: normal;
 }
 
@@ -192,7 +192,7 @@
 }
 
 .text-block {
-  width: 300px;
+  width: 400px;
   text-align: center;
 }
 
@@ -200,6 +200,8 @@
   background-color: #036;
   color: #fff;
   font-size: 16px;
+  text-align: center;
+  width: 240px;
 }
 
 .top-link {

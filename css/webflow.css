@@ -55,8 +55,8 @@ body {
   min-height: 100%;
   background-color: #fff;
   font-family: yugothib;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 1em;
+  line-height: 1.5em;
   color: #333;
 }
 img {
@@ -1068,7 +1068,7 @@ textarea.w-select {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 .w-dropdown-toggle {
   -webkit-user-select: none;
@@ -1097,9 +1097,10 @@ textarea.w-select {
 }
 .w-dropdown-list.w--open {
   display: block;
+  margin-top: 15px;
 }
 .w-dropdown-link {
-  padding: 10px 20px;
+  padding: 8px 20px;
   display: block;
   color: #222222;
 }
