@@ -45,11 +45,16 @@
 html {
   height: 100%;
 }
+@font-face {
+  font-family: 'yugothib';
+  src: url('../typeface/yugothib.ttf');
+}
+
 body {
   margin: 0;
   min-height: 100%;
   background-color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: yugothib;
   font-size: 14px;
   line-height: 20px;
   color: #333;
