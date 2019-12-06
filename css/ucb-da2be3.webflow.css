@@ -255,10 +255,10 @@
 @media (max-width: 479px) {
 
   /* banner 缩进 */
-  .banner-section {
+  /* .banner-section {
     margin-left: 20px;
     margin-right: 20px;
-  }
+  } */
 
   /* 显示占位符 */
   #cus-placeholder {
