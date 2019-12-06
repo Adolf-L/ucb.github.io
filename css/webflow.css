@@ -1091,7 +1091,7 @@ textarea.w-select {
 }
 .w-dropdown-list {
   position: absolute;
-  background: #dddddd;
+  background: #036;
   display: none;
   min-width: 100%;
 }
@@ -1143,6 +1143,10 @@ textarea.w-select {
   .w-nav[data-collapse="tiny"] .w-dropdown-list {
     position: static;
   }
+  .w-dropdown-list.w--open {
+    /* display: block; */
+    margin-top: 0px;
+}
 }
 /**
  * ## Note
