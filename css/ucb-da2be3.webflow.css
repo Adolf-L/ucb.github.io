@@ -29,8 +29,8 @@
 }
 
 @font-face {
-  font-family: 'yugothib';
-  src: url('../typeface/yugothib.ttf');
+  font-family: 'JosefinSans-Regular';
+  src: url('../typeface/JosefinSans-Regular.ttf');
 }
 
 .header {
@@ -45,7 +45,7 @@
   background-color: #fff;
   /* line-height: 44px; */
   font-style: normal;
-  /* font-family: 'Arial,sans-serif'; */
+  font-family: 'JosefinSans-Regular';
 }
 
 .banner-section {
