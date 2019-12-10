@@ -1097,7 +1097,7 @@ textarea.w-select {
 }
 .w-dropdown-list.w--open {
   display: block;
-  margin-top: 19px;
+  /* margin-top: 19px; */
 }
 .w-dropdown-link {
   padding: 8px 10px;
@@ -1146,7 +1146,7 @@ textarea.w-select {
   .w-dropdown-list.w--open {
     /* display: block; */
     margin-top: 0px;
-}
+  }
 }
 /**
  * ## Note

@@ -245,11 +245,12 @@
 }
 
 .nav-menu {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .bar-dropdown-link {
   color: #337ab7;
+  margin-bottom: 19px;
 }
 
 .footerlink {
@@ -396,6 +397,7 @@
   }
   .bar-dropdown-link {
     background-color: #fff;
+    margin-bottom: 0px;
   }
 }
 
