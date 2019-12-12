@@ -253,6 +253,10 @@
   margin-bottom: 19px;
 }
 
+.bar-dropdown-link:hover{
+  background: #eee;
+}
+
 .footerlink {
   color: hsla(0, 0%, 100%, 0.74);
   text-decoration: none;
